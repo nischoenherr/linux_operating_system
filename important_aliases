@@ -1,0 +1,13 @@
+# Alias for Shell-Commands
+alias kill-phpstorm='kill -9 $(pgrep -f phpstorm)'
+alias kill-postman='kill -9 $(pgrep -f postman)'
+alias update='sudo apt-get update'
+alias upgrade='sudo apt-get upgrade'
+alias launch-apache='sudo service apache2 start; sudo service apache2 status'
+alias launch-nginx='sudo systemctl status nginx'
+alias trash='sudo apt autoremove'
+alias weather='curl -4 http://wttr.in/Bremen'
+
+alias dcup='docker-compose up -d'
+alias dcdown='docker-compose down'
+alias dcrestart='dcup && dcdown'
