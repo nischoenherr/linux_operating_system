@@ -14,4 +14,3 @@ Configurations and customization within a Linux environment
 4.) Save and close File with strg+o and strg+x
 
 5.) Restart Bash to update changes
-``
